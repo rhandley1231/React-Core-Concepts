@@ -1,3 +1,5 @@
+//This is the main entry point of the react app
+//The ReactDOM outputs the react components
 import ReactDOM from "react-dom/client";
 
 import App from "./App.jsx";
