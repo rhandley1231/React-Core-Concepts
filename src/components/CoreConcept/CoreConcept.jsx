@@ -1,4 +1,4 @@
-import './CoreConcept.css'
+import './CoreConcept.css';
 /*function CoreConcept(props){
   return (
     <li>
@@ -10,12 +10,12 @@ import './CoreConcept.css'
 }*/
 
 //Destructuring the above function to make code implementation more readable
-export default function CoreConcept({image, title, description}){
-    return (
-      <li>
-        <img src={image} alt={title}/>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        </li>
-    );
-  }
+export default function CoreConcept({ image, title, description }) {
+  return (
+    <li>
+      <img src={image} alt={title} />
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </li>
+  );
+}
