@@ -32,7 +32,6 @@ export default function Examples() {
       {/* Dynamically set the wrapper for the buttons by passing either a string value 
       representing an element from HTML or a component  */}
       <Tabs
-      ButtonsContainer="menu"
         buttons={
           <Fragment>
             <TabButton

@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 //Multiple Slots allow for more reusability in components
 //Say we need tabs set up on different parts of a website, well now we can do that
-export default function Tabs({ children, buttons, ButtonsContainer }) {
+export default function Tabs({ children, buttons, ButtonsContainer = 'menu' }) {
   //const ButtonsContainer = buttonsContainer;
   return (
     <Fragment>
